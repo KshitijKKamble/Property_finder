@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Available Properties</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add your custom CSS styles here */
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Add your header content here -->
+  </header>
+  <main>
+    <h1>Available Properties</h1>
+    <form>
+      <label for="location">Location:</label>
+      <select id="location">
+        <option value="">-- Select City --</option>
+        <option value="new-york">New York</option>
+        <option value="los-angeles">Los Angeles</option>
+        <option value="chicago">Chicago</option>
+        <!-- Add more cities here -->
+      </select>
+
+      <label for="available-date">Available From:</label>
+      <input type="date" id="available-date">
+
+      <label for="price-range">Price Range:</label>
+      <input type="range" id="price-range" min="0" max="1000000" step="1000">
+
+      <label for="property-type">Property Type:</label>
+      <select id="property-type">
+        <option value="">-- Select Type --</option>
+        <option value="apartment">Apartment</option>
+        <option value="house">House</option>
+        <option value="villa">Villa</option>
+        <!-- Add more property types here -->
+      </select>
+
+      <button type="submit">Filter</button>
+    </form>
+
+    <ul id="properties-list">
+      <!-- Add your properties here using JavaScript -->
+    </ul>
+  </main>
+  <footer>
+    <!-- Add your footer content here -->
+  </footer>
+</body>
+</html>
+
+
+
+
